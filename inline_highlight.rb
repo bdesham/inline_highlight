@@ -16,6 +16,9 @@ module Jekyll
 			code.strip
 		end
 
+		def render(context)
+			super.strip
+		end
 	end
 end
 
