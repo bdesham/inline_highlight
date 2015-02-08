@@ -47,6 +47,7 @@ If you have custom CSS set up for syntax highlighting then you can just create a
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* 2.0 (2015-02-07): Placing a line break before the `ihighlight` tag would incorrectly start a new paragraph. Thanks to [iosdev-republicofapps](https://github.com/iosdev-republicofapps) for the fix!
 * 1.0 (2014-12-14): Initial release.
 
 ## Author

@@ -4,7 +4,7 @@
 #
 # https://github.com/bdesham/inline_highlight
 #
-# Copyright (c) 2014, Tom Preston-Werner and Benjamin Esham
+# Copyright (c) 2014-2015, Tom Preston-Werner and Benjamin Esham
 # See README.md for full copyright information.
 
 module Jekyll
