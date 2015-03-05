@@ -1,6 +1,6 @@
-# inline_highlight
+# jekyll_inline_highlight
 #
-# A tag for inline syntax highlighting in Jekyll
+# A Liquid tag for inline syntax highlighting in Jekyll
 #
 # https://github.com/bdesham/inline_highlight
 #
