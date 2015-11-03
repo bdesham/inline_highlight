@@ -11,9 +11,11 @@ module Jekyll
 	class InlineHighlightBlock < Tags::HighlightBlock
 
 		def add_code_tag(code)
-			code = code.sub(/<div.*?><pre>\n*/, '<code class="highlight language-' + @lang.to_s.gsub("+", "-") + '" data-lang="' + @lang.to_s + '">')
-			code = code.sub(/\n*<\/pre><\/div>/, "</code>")
-			code.strip
+			code_attributes = [
+				"class=\"highlight language-#{@lang.to_s.gsub('+', '-')}\"",
+				"data-lang=\"#{@lang.to_s}\""
+			].join(" ")
+			"<code #{code_attributes}>#{code.chomp.strip}</code>"
 		end
 
 		def render(context)

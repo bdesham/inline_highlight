@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
 
 	s.files				= ['lib/jekyll_inline_highlight.rb']
 
-	s.add_runtime_dependency('jekyll', '~> 2.5')
+	s.add_runtime_dependency('jekyll', '~> 3.0')
 end
