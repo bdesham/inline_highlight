@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.name				= 'jekyll_inline_highlight'
-	s.version			= '2.0'
-	s.date				= '2015-02-07'
+	s.version			= '3.0'
+	s.date				= '2015-11-03'
 
 	s.author			= 'Benjamin Esham'
 	s.email				= 'benjamin@esham.io'
