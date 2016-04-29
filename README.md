@@ -43,19 +43,19 @@ By contrast, the “highlight” tag produces HTML like this:
 
 If you have custom CSS set up for syntax highlighting then you can just create a rule for `.highlight` to catch both forms. The “...” is identical in both cases. (There are some additional attributes added to the `<code>` element, but I’ve omitted them above because they aren’t part of the inline\_highlight public API.)
 
-## Versioning
+## Author
+
+This plugin was created by [Benjamin Esham](https://esham.io).
+
+This project is [hosted on GitHub](https://github.com/bdesham/inline_highlight). Please feel free to submit pull requests.
+
+## Version history
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
 * 3.0 (2015-11-03): The plugin now works with Jekyll 3.0.x; it no longer works with Jekyll 2.x.
 * 2.0 (2015-02-07): Placing a line break before the `ihighlight` tag would incorrectly start a new paragraph. Thanks to [iosdev-republicofapps](https://github.com/iosdev-republicofapps) for the fix!
 * 1.0 (2014-12-14): Initial release.
-
-## Author
-
-This plugin was created by [Benjamin Esham](http://esham.io).
-
-This project is [hosted on GitHub](https://github.com/bdesham/inline_highlight). Please feel free to submit pull requests.
 
 ## License
 
