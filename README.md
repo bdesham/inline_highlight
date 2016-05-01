@@ -19,7 +19,7 @@ Unfortunately this syntax highlighting can’t be used in the middle of a paragr
 
 ## Installation
 
-The easiest way to install this plugin is with RubyGems: `gem install jekyll_inline_highlight`.
+The easiest way to install this plugin is to add the [jekyll_inline_highlight.rb file](/lib/jekyll_inline_highlight.rb) to a folder named `_plugins` in your Jekyll project.
 
 ## Usage
 
