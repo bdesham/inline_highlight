@@ -1,4 +1,4 @@
-# inline\_highlight
+# inline_highlight
 
 A tag for inline syntax highlighting in Jekyll.
 
@@ -12,7 +12,7 @@ A tag for inline syntax highlighting in Jekyll.
     
     at the top of your file.
 
-Unfortunately this syntax highlighting can’t be used in the middle of a paragraph: it always starts a new `<figure>` in the generated HTML. The inline\_highlight plugin provides an “ihighlight” tag that works in the same way as the built-in “highlight” tag except that it wraps the highlighted code within a `<code>` instead of a `<figure>`. You can use the tag like this:
+Unfortunately this syntax highlighting can’t be used in the middle of a paragraph: it always starts a new `<figure>` in the generated HTML. The inline_highlight plugin provides an “ihighlight” tag that works in the same way as the built-in “highlight” tag except that it wraps the highlighted code within a `<code>` instead of a `<figure>`. You can use the tag like this:
 
     It looks like you just forgot to include {% ihighlight python %} from random
     import random {% endihighlight %} at the top of your file.
@@ -43,7 +43,7 @@ By contrast, the “highlight” tag produces HTML like this:
         </pre>
     </figure>
 
-If you have custom CSS set up for syntax highlighting then you can just create a rule for `.highlight` to catch both forms. The “...” is identical in both cases. (There are some additional attributes added to the `<code>` element, but I’ve omitted them above because they aren’t part of the inline\_highlight public API.)
+If you have custom CSS set up for syntax highlighting then you can just create a rule for `.highlight` to catch both forms. The “...” is identical in both cases. (There are some additional attributes added to the `<code>` element, but I’ve omitted them above because they aren’t part of the inline_highlight public API.)
 
 ## Author
 
