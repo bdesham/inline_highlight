@@ -19,7 +19,9 @@ Unfortunately this syntax highlighting can’t be used in the middle of a paragr
 
 ## Installation
 
-The easiest way to install this plugin is to add the [jekyll_inline_highlight.rb file](/lib/jekyll_inline_highlight.rb) to a folder named `_plugins` in your Jekyll project.
+The easiest way to install this plugin is to copy the [jekyll_inline_highlight.rb file](lib/jekyll_inline_highlight.rb) to a folder named “\_plugins” in your Jekyll project.
+
+For more detailed instructions, see the [“installing a plugin”](https://jekyllrb.com/docs/plugins/#installing-a-plugin) section of the Jekyll documentation.
 
 ## Usage
 
