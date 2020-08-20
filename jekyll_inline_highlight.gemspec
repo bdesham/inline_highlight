@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.name				= 'jekyll_inline_highlight'
-	s.version			= '3.0'
-	s.date				= '2015-11-03'
+	s.version			= '3.0.1'
+	s.date				= '2020-08-19'
 
 	s.author			= 'Benjamin Esham'
 	s.email				= 'benjamin@esham.io'
@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
 
 	s.files				= ['lib/jekyll_inline_highlight.rb']
 
-	s.add_runtime_dependency('jekyll', '~> 3.0')
+	s.add_runtime_dependency('jekyll', '>= 3.0', '< 5.0')
 end
