@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 	s.author			= 'Benjamin Esham'
 	s.email				= 'benjamin@esham.io'
 	s.homepage		= 'https://github.com/bdesham/inline_highlight'
-	s.license			= 'Public domain'
+	s.license			= 'MIT'
 
 	s.summary			= 'Liquid tag for inline syntax highlighting in Jekyll.'
 	s.description	= 'A Liquid tag for inline syntax highlighting in Jekyll.'
