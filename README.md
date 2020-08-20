@@ -55,6 +55,7 @@ This project is [hosted on GitHub](https://github.com/bdesham/inline_highlight).
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* 3.0.1 (2020-08-19): The plugin now works with Jekyll 4 (in addition to Jekyll 3).
 * 3.0 (2015-11-03): The plugin now works with Jekyll 3.0.x; it no longer works with Jekyll 2.x.
 * 2.0 (2015-02-07): Placing a line break before the `ihighlight` tag would incorrectly start a new paragraph. Thanks to [iosdev-republicofapps](https://github.com/iosdev-republicofapps) for the fix!
 * 1.0 (2014-12-14): Initial release.
